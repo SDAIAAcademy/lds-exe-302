@@ -1,0 +1,196 @@
+{
+  "seed": 302,
+  "history": {
+    "cohorts": [
+      {
+        "cohort": "2024-1",
+        "candidates": 22,
+        "test_passed": 13,
+        "case_passed": 12
+      },
+      {
+        "cohort": "2024-2",
+        "candidates": 24,
+        "test_passed": 14,
+        "case_passed": 14
+      },
+      {
+        "cohort": "2025-1",
+        "candidates": 23,
+        "test_passed": 14,
+        "case_passed": 14
+      },
+      {
+        "cohort": "2025-2",
+        "candidates": 24,
+        "test_passed": 16,
+        "case_passed": 15
+      },
+      {
+        "cohort": "2026-1",
+        "candidates": 20,
+        "test_passed": 18,
+        "case_passed": 19
+      },
+      {
+        "cohort": "2026-2",
+        "candidates": 20,
+        "test_passed": 18,
+        "case_passed": 19
+      },
+      {
+        "cohort": "2026-3",
+        "candidates": 20,
+        "test_passed": 19,
+        "case_passed": 20
+      }
+    ],
+    "recheck_n": 19,
+    "recheck_passed": 10
+  },
+  "test": {
+    "items": 24,
+    "keys": {
+      "Q01": "C",
+      "Q02": "C",
+      "Q03": "B",
+      "Q04": "A",
+      "Q05": "D",
+      "Q06": "A",
+      "Q07": "C",
+      "Q08": "C",
+      "Q09": "D",
+      "Q10": "D",
+      "Q11": "B",
+      "Q12": "A",
+      "Q13": "D",
+      "Q14": "D",
+      "Q15": "A",
+      "Q16": "B",
+      "Q17": "B",
+      "Q18": "D",
+      "Q19": "B",
+      "Q20": "C",
+      "Q21": "A",
+      "Q22": "B",
+      "Q23": "C",
+      "Q24": "A"
+    },
+    "cut": 17,
+    "overall_late_pct": 9.45,
+    "mean_of_rates_pct": 10.56,
+    "top_branch": "B4",
+    "b4_after_fix_pct": 14.0,
+    "key_letters": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 6
+    }
+  },
+  "dispatch": {
+    "rows_in_file": 600,
+    "duplicates": 12,
+    "missing_band": 9,
+    "clean_rows": 588,
+    "by_truck": {
+      "own_fleet": {
+        "n": 340,
+        "late_pct": 8.8,
+        "by_band": {
+          "near": {
+            "n": 188,
+            "late_pct": 3.2
+          },
+          "mid": {
+            "n": 99,
+            "late_pct": 10.1
+          },
+          "far": {
+            "n": 49,
+            "late_pct": 28.6
+          }
+        }
+      },
+      "contracted": {
+        "n": 248,
+        "late_pct": 14.9,
+        "by_band": {
+          "near": {
+            "n": 49,
+            "late_pct": 2.0
+          },
+          "mid": {
+            "n": 68,
+            "late_pct": 7.4
+          },
+          "far": {
+            "n": 126,
+            "late_pct": 24.6
+          }
+        }
+      }
+    }
+  },
+  "standin": {
+    "standin_items_passed": 21,
+    "standin_criteria_met": 4,
+    "standin_items_pct": 87.5,
+    "standin_criteria_pct": 66.7
+  },
+  "credentials": {
+    "credentials": 8
+  },
+  "evaluation": {
+    "participants": 60,
+    "comparison": 120,
+    "p_before": 13.5,
+    "p_after": 8.3,
+    "c_before": 18.5,
+    "c_after": 15.3,
+    "post_only_gap": -7.0,
+    "pre_post_participants": -5.2,
+    "did": -2.0,
+    "baseline_gap": -5.0,
+    "reaction_mean": 4.56,
+    "planted": {
+      "true_effect": -2.5,
+      "trend": -3.0
+    }
+  },
+  "slides": {
+    "parallel_evaluation": {
+      "trained": {
+        "n": 40,
+        "before": 6.0,
+        "after": 3.5
+      },
+      "untrained": {
+        "n": 80,
+        "before": 8.0,
+        "after": 6.5
+      },
+      "post_only_gap": -3.0,
+      "pre_post_trained": -2.5,
+      "did": -1.0
+    },
+    "detector": {
+      "claimed_fpr": 0.02,
+      "honest_submissions": 150,
+      "expected_false_flags": 3.0,
+      "p_at_least_one": 0.952
+    },
+    "cut_score_simulation": {
+      "candidates": 60,
+      "items": 24,
+      "cut": 17,
+      "mean": 15.2,
+      "sd": 5.92,
+      "kr20": 0.9,
+      "kr20_3dp": 0.896,
+      "sem": 1.91,
+      "within_one_sem_of_cut": 11,
+      "passed": 28
+    }
+  }
+}

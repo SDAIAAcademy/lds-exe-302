@@ -1,0 +1,26 @@
+# تقييم المهارات وإصدار شهاداتها في عصر الذكاء الاصطناعي
+
+> تقيس بنفسك ما يجتازه نموذج مستضاف من تقييمك غير المراقب، وتعيد تصميمه في مسار مراقب ومسار مفتوح يُناقَش، وتقرأ كل شهادة بما تثبته، وتخطط لقياس أثر البرنامج بمجموعة مقارنة. مقرر من أكاديمية سدايا، الرمز LDS-EXE-302، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/lds-exe-302/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/lds-exe-302/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/lds-exe-302/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 8,802 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/lds-exe-302/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: ما يجتازه النموذج، وما تشهد به الشهادة، وما يثبته الأثر](https://sdaiaacademy.github.io/lds-exe-302/slides/day1.md): الجلسات: ما الذي غيّره الذكاء الاصطناعي، إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم، الشهادات وادعاءاتها، تقييم أثر التدريب؛ الصفحة: https://sdaiaacademy.github.io/lds-exe-302/slides/day1.html؛ نحو 7,979 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: نموذج مستضاف يحاول اجتياز الاختبار](https://sdaiaacademy.github.io/lds-exe-302/labs/D1_1_exposure_test.md): اليوم 1، الجلسة 1، 60 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-exe-302/labs/D1_1_exposure_test.html
+- [المختبر 1.2: تقييم واحد في مسارين](https://sdaiaacademy.github.io/lds-exe-302/labs/D1_2_two_lanes.md): اليوم 1، الجلسة 2، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-exe-302/labs/D1_2_two_lanes.html
+- [المختبر 1.4: خريطة الشهادات وخطة تقييم البرنامج](https://sdaiaacademy.github.io/lds-exe-302/labs/D1_4_credentials_evaluation.md): اليوم 1، الجلسة 4، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-exe-302/labs/D1_4_credentials_evaluation.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/lds-exe-302/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 8,802 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/lds-exe-302/context/day1.md): اليوم 1، نحو 7,979 من الوحدات النصية

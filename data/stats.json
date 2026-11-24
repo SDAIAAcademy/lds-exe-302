@@ -1,0 +1,394 @@
+{
+  "v": 1,
+  "engine": "1.0.0",
+  "build": {
+    "at": "2026-11-24T23:27:54Z",
+    "version": "2027.1.0",
+    "commit": "555901b"
+  },
+  "lang": "ar",
+  "dir": "rtl",
+  "totals": {
+    "decks": 1,
+    "slides": 48,
+    "words": 3406,
+    "notes": 43,
+    "notes_ratio": 0.9,
+    "activities": 4,
+    "styles": 7,
+    "slide_minutes": 98,
+    "components": {
+      "cards": 33,
+      "pills": 0,
+      "callouts": 27,
+      "tables": 7,
+      "code": 0,
+      "tokens": 0,
+      "flows": 4,
+      "stats": 6,
+      "bars": 1,
+      "meters": 0,
+      "agendas": 1,
+      "quizzes": 4,
+      "checklists": 3,
+      "prompts": 0,
+      "chats": 0,
+      "tools": 0,
+      "traces": 0,
+      "ladders": 0,
+      "figures": 0,
+      "matrices": 0,
+      "timers": 2,
+      "columns": 20,
+      "images": 0,
+      "drawings": 0,
+      "fragments": 7
+    },
+    "minutes": 390
+  },
+  "decks": [
+    {
+      "deck": "day1",
+      "kind": "day",
+      "label": "اليوم 1",
+      "title": "ما يجتازه النموذج، وما تشهد به الشهادة، وما يثبته الأثر",
+      "slides": 48,
+      "words": 3406,
+      "notes": 43,
+      "notes_ratio": 0.9,
+      "activities": 4,
+      "styles": 7,
+      "slide_minutes": 98,
+      "components": {
+        "cards": 33,
+        "pills": 0,
+        "callouts": 27,
+        "tables": 7,
+        "code": 0,
+        "tokens": 0,
+        "flows": 4,
+        "stats": 6,
+        "bars": 1,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 4,
+        "checklists": 3,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 2,
+        "columns": 20,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 7
+      },
+      "minutes": 390,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "ما الذي غيّره الذكاء الاصطناعي",
+          "slides": 11,
+          "words": 830,
+          "notes": 10,
+          "notes_ratio": 0.91,
+          "activities": 1,
+          "styles": 7,
+          "slide_minutes": 13,
+          "components": {
+            "cards": 5,
+            "pills": 0,
+            "callouts": 8,
+            "tables": 1,
+            "code": 0,
+            "tokens": 0,
+            "flows": 2,
+            "stats": 2,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 5,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 7
+          },
+          "minutes": 105,
+          "lab_minutes": 60
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم",
+          "slides": 11,
+          "words": 836,
+          "notes": 10,
+          "notes_ratio": 0.91,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": 8,
+          "components": {
+            "cards": 9,
+            "pills": 0,
+            "callouts": 8,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 0,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 4,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 120,
+          "lab_minutes": 75
+        },
+        {
+          "n": 3,
+          "label": "الجلسة 3",
+          "title": "الشهادات وادعاءاتها",
+          "slides": 10,
+          "words": 688,
+          "notes": 9,
+          "notes_ratio": 0.9,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": 12,
+          "components": {
+            "cards": 5,
+            "pills": 0,
+            "callouts": 6,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 4,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 0,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 3,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 50,
+          "lab_minutes": null
+        },
+        {
+          "n": 4,
+          "label": "الجلسة 4",
+          "title": "تقييم أثر التدريب",
+          "slides": 13,
+          "words": 829,
+          "notes": 12,
+          "notes_ratio": 0.92,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": 65,
+          "components": {
+            "cards": 11,
+            "pills": 0,
+            "callouts": 4,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 0,
+            "stats": 0,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 2,
+            "columns": 7,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 115,
+          "lab_minutes": 75
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "LO1",
+      "text": "يختبر مقدار ما يستطيع نموذج مستضاف اجتيازه من تقييم قائم دون مهارة المرشح نفسه، على اختبار اصطناعي عبر الإنترنت ودراسة حالة تُنجز خارج القاعة",
+      "level": "Applied",
+      "slides": [
+        "day1#pass-rate-jump",
+        "day1#unsupervised-exams-study",
+        "day1#detector-arithmetic",
+        "day1#detectors-harm",
+        "day1#practice-without-guidance",
+        "day1#bans-do-not-hold",
+        "day1#exposure-method",
+        "day1#reading-an-exposure-sheet",
+        "day1#check-detector-flag"
+      ],
+      "activities": [
+        "day1#check-detector-flag-q1"
+      ],
+      "sessions": [
+        "day1/1"
+      ],
+      "labs": [
+        "1.1"
+      ],
+      "questions": [
+        "q-exposure-meaning",
+        "q-exposure-conditions",
+        "q-detector-scale",
+        "q-detector-equal",
+        "q-guided-practice"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO2",
+      "text": "يصمم تقييمًا بمسارين فيه اختبار قصير مراقب ومهمة مفتوحة تدعمها أدلة إجرائية ومناقشة، استنادًا إلى ورقة الانكشاف ومتطلبات المهارة للدور",
+      "level": "Performance",
+      "slides": [
+        "day1#bans-do-not-hold",
+        "day1#two-lanes",
+        "day1#secure-formats",
+        "day1#process-evidence",
+        "day1#ai-rules-per-activity",
+        "day1#national-authenticity",
+        "day1#separate-duties",
+        "day1#adverse-decisions",
+        "day1#weights-follow-evidence",
+        "day1#check-which-lane",
+        "day1#ai-in-marking"
+      ],
+      "activities": [
+        "day1#check-which-lane-q1"
+      ],
+      "sessions": [
+        "day1/2"
+      ],
+      "labs": [
+        "1.2"
+      ],
+      "questions": [
+        "q-lane-complaints",
+        "q-process-evidence",
+        "q-ban-line",
+        "q-appeal-decider",
+        "q-weights"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO3",
+      "text": "يصنف الشهادات بحسب ما تثبته، وطريقة التحقق منها، وما يجوز لها أن تدّعيه، استنادًا إلى ثماني شهادات نموذجية مع بياناتها الوصفية",
+      "level": "Applied",
+      "slides": [
+        "day1#credential-types",
+        "day1#national-certificate-terms",
+        "day1#verifiable-credentials",
+        "day1#badge-fields",
+        "day1#stacking",
+        "day1#ai-in-marking",
+        "day1#cut-score-sem",
+        "day1#near-the-cut",
+        "day1#check-badge-claim"
+      ],
+      "activities": [
+        "day1#check-badge-claim-q1"
+      ],
+      "sessions": [
+        "day1/3",
+        "day1/4"
+      ],
+      "labs": [
+        "1.4"
+      ],
+      "questions": [
+        "q-completion-claim",
+        "q-signature-proves",
+        "q-stack-weakest",
+        "q-ai-marking",
+        "q-near-cut"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO4",
+      "text": "يصمم تقييمًا لأثر برنامج في الأداء الوظيفي باستخدام مجموعة مقارنة، استنادًا إلى وصف برنامج وبيانات اصطناعية قبل البرنامج وبعده",
+      "level": "Performance",
+      "slides": [
+        "day1#evaluation-levels",
+        "day1#measure-and-decision",
+        "day1#selection-effects",
+        "day1#comparison-groups",
+        "day1#return-on-investment",
+        "day1#independent-evaluator",
+        "day1#check-which-estimate"
+      ],
+      "activities": [
+        "day1#check-which-estimate-q1"
+      ],
+      "sessions": [
+        "day1/4"
+      ],
+      "labs": [
+        "1.4"
+      ],
+      "questions": [
+        "q-reaction-level",
+        "q-did-parallel",
+        "q-nomination-gap",
+        "q-satisfaction-behaviour",
+        "q-evaluator",
+        "q-fair-comparison"
+      ],
+      "covered": true
+    }
+  ]
+}

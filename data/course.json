@@ -1,0 +1,376 @@
+{
+  "v": 1,
+  "engine": "1.0.0",
+  "build": {
+    "at": "2026-11-24T23:27:54Z",
+    "version": "2027.1.0",
+    "commit": "555901b"
+  },
+  "lang": "ar",
+  "dir": "rtl",
+  "langs": [
+    "ar"
+  ],
+  "alt": {},
+  "course": {
+    "id": "lds-exe-302",
+    "code": "LDS-EXE-302",
+    "version": "2027.1.0",
+    "title": "تقييم المهارات وإصدار شهاداتها في عصر الذكاء الاصطناعي",
+    "tagline": "تقيس بنفسك ما يجتازه نموذج مستضاف من تقييمك غير المراقب، وتعيد تصميمه في مسار مراقب ومسار مفتوح يُناقَش، وتقرأ كل شهادة بما تثبته، وتخطط لقياس أثر البرنامج بمجموعة مقارنة",
+    "description": "يقرر قادة التعلم والمواهب أي أدوات التقييم لا تزال قادرة على إثبات المهارة حين يملك كل مرشح مساعد ذكاء اصطناعي. يراقب المشاركون نموذجًا مستضافًا وهو يحاول اجتياز نسخة اصطناعية من اختبارهم غير المراقب، ثم يعيدون تصميمه في مسار مراقب ومسار مفتوح تُناقَش مخرجاته، ويربطون الشهادات بما يمكن لكل منها أن يدّعيه بصدق، ويخططون لقياس أثر البرنامج. يُتناول التقييم الصفي في المقرر USE-EDU-201.",
+    "track": "executives",
+    "track_name": "مسار التنفيذيين والقادة",
+    "level": 300,
+    "badge": null,
+    "audience": "القياديون. أعضاء مجالس الإدارة والتنفيذيون وكبار المديرين في الجهات العامة والخاصة، وموظفو الاستراتيجية والمالية والمشتريات والموارد البشرية والمخاطر الذين يعدّون قرارات الذكاء الاصطناعي لهم.",
+    "prerequisites": [
+      "صمم برنامجًا للتدريب أو التقييم أو طلب إعداده أو أداره",
+      "يقرأ جدولًا لنسب الاجتياز ويبيّن ما تدل عليه الفجوة بين مجموعتين"
+    ],
+    "url": "https://sdaiaacademy.github.io/lds-exe-302/",
+    "repo": "SDAIAAcademy/lds-exe-302",
+    "home": "../index.html",
+    "format": "workshop",
+    "format_note": "ورشة عمل: يوم واحد، فيه ثلاثة مختبرات ومهمة تحضيرية",
+    "shape": "يوم تدريبي واحد",
+    "hours": {
+      "instruction": 3,
+      "lab": 3.5,
+      "guided_self_study": 0.5,
+      "assessment": 1,
+      "capstone": 0,
+      "total": 8
+    },
+    "unit": "day",
+    "outcomes": [
+      {
+        "id": "LO1",
+        "text": "يختبر مقدار ما يستطيع نموذج مستضاف اجتيازه من تقييم قائم دون مهارة المرشح نفسه، على اختبار اصطناعي عبر الإنترنت ودراسة حالة تُنجز خارج القاعة",
+        "level": "Applied",
+        "evidence": "ورقة انكشاف تذكر نسبة البنود والمعايير التي اجتازها النموذج"
+      },
+      {
+        "id": "LO2",
+        "text": "يصمم تقييمًا بمسارين فيه اختبار قصير مراقب ومهمة مفتوحة تدعمها أدلة إجرائية ومناقشة، استنادًا إلى ورقة الانكشاف ومتطلبات المهارة للدور",
+        "level": "Performance",
+        "evidence": "خطة فيها المسارات والأوزان وضوابط الأصالة وقواعد استخدام الذكاء الاصطناعي"
+      },
+      {
+        "id": "LO3",
+        "text": "يصنف الشهادات بحسب ما تثبته، وطريقة التحقق منها، وما يجوز لها أن تدّعيه، استنادًا إلى ثماني شهادات نموذجية مع بياناتها الوصفية",
+        "level": "Applied",
+        "evidence": "خريطة شهادات تؤشر على كل ادعاء مبالغ فيه"
+      },
+      {
+        "id": "LO4",
+        "text": "يصمم تقييمًا لأثر برنامج في الأداء الوظيفي باستخدام مجموعة مقارنة، استنادًا إلى وصف برنامج وبيانات اصطناعية قبل البرنامج وبعده",
+        "level": "Performance",
+        "evidence": "خطة تسمي المقياس في كل مستوى والقرار الذي يستند إليه"
+      }
+    ],
+    "case_study": {
+      "name": "مجموعة صِلِّيان لمواد البناء، إدارة التعلّم والمواهب",
+      "summary": "شركة خاصة افتراضية لمواد البناء (أربعة مصانع وذراع للتوزيع ونحو 5,200 موظف) تدير برنامجًا داخليًّا اسمه «محلل البيانات المعتمد»: ستة أسابيع تنتهي باختبار عبر الإنترنت غير مراقب من 24 بندًا ودراسة حالة تُنجز في البيت، وشارة تدخل ملف الترقية. قفزت نسب الاجتياز في 2026، وعلى طاولة مديرة التعلّم والمواهب أداة كشف وسطر يمنع المساعدات وطلب توسيع مبني على تقرير مالك البرنامج. كل الملفات اصطناعية ومولّدة ببذرة ثابتة: الاختبار ومفتاحه، وسجل 600 رحلة توزيع بمشكلات مزروعة، وثماني شهادات نموذجية من جهات مصدرة افتراضية، وبيانات إعادة العمل قبل البرنامج وبعده لمشاركين ومجموعة مقارنة، ولها مفتاح إجابة للمدرّب. الأدوار وحدها مذكورة، والموظفون برموز لا بأسماء."
+    },
+    "days": [
+      {
+        "id": "day1",
+        "kind": "day",
+        "n": 1,
+        "number": 1,
+        "label": "اليوم 1",
+        "title": "ما يجتازه النموذج، وما تشهد به الشهادة، وما يثبته الأثر",
+        "subtitle": "",
+        "shape": "4 جلسات · 3 مختبرات",
+        "deck": "../slides/day1.html",
+        "md": "../slides/day1.md",
+        "url": "https://sdaiaacademy.github.io/lds-exe-302/slides/day1.html",
+        "sessions": [
+          {
+            "n": 1,
+            "label": "الجلسة 1",
+            "title": "ما الذي غيّره الذكاء الاصطناعي",
+            "summary": "إجابات يكتبها الذكاء الاصطناعي في الاختبارات غير المراقبة، ولماذا تخفق أدوات الكشف ومن تضر، والتدرب دون توجيه والمهارة اللاحقة، وكيف يُقاس الانكشاف",
+            "outcomes": [
+              "تقرأ جدول نسب الاجتياز وتسمي ما تدل عليه القفزة وما لا تدل عليه",
+              "تحسب ما تعنيه نسبة الإيجابيات الكاذبة لأداة كشف على دفعة كاملة، ومن يتحمل الخطأ",
+              "تقيس انكشاف تقييم قائم بندًا بندًا ومعيارًا معيارًا"
+            ],
+            "lo": [
+              "LO1"
+            ],
+            "minutes": 105,
+            "lab": {
+              "id": "1.1",
+              "title": "نموذج مستضاف يحاول اجتياز الاختبار",
+              "summary": "تعطي نموذجًا مستضافًا الاختبار الاصطناعي ذا البنود الأربعة والعشرين ودراسة الحالة التي تُنجز في البيت، ثم تصحح ما أنتجه بالمفتاح وبمعايير الحالة الستة، وتخرج بورقة انكشاف فيها نسبة البنود ونسبة المعايير التي اجتازها دون مهارة المرشح.",
+              "minutes": 60,
+              "href": "../labs/D1_1_exposure_test.html",
+              "steps": [
+                {
+                  "text": "اقرأ الاختبار ودراسة الحالة واكتب قواعد المحاولة",
+                  "minutes": 8
+                },
+                {
+                  "text": "أعط النموذج البنود الأربعة والعشرين ودوّن إجاباته",
+                  "minutes": 17
+                },
+                {
+                  "text": "أعطه دراسة الحالة وملف الرحلات واحفظ مذكرته",
+                  "minutes": 15
+                },
+                {
+                  "text": "صحح بالمفتاح وبالمعايير الستة واملأ ورقة الانكشاف",
+                  "minutes": 12
+                },
+                {
+                  "text": "سمّ ما صمد من البنود والمعايير ولماذا",
+                  "minutes": 8
+                }
+              ],
+              "stretch": "أعد صياغة ثلاثة بنود صمدت بحيث تبقى تقيس الشيء نفسه، وجربها مرة أخرى على النموذج"
+            }
+          },
+          {
+            "n": 2,
+            "label": "الجلسة 2",
+            "title": "إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم",
+            "summary": "الاختبارات القصيرة المراقبة والاختبارات العملية والمناقشات الشفهية، والأدلة الإجرائية، وقواعد استخدام الذكاء الاصطناعي لكل نشاط، وضوابط الأصالة",
+            "outcomes": [
+              "توزع متطلبات الدور على مسار مراقب ومسار مفتوح بحسب ما أظهره الانكشاف",
+              "تحدد قاعدة استخدام الذكاء الاصطناعي لكل نشاط والإفصاح المطلوب فيه",
+              "تكتب ضوابط الأصالة وقاعدة القرار السلبي والفصل بين من يكتب ومن يصحح ومن يبت"
+            ],
+            "lo": [
+              "LO2"
+            ],
+            "minutes": 120,
+            "lab": {
+              "id": "1.2",
+              "title": "تقييم واحد في مسارين",
+              "summary": "تعيد تصميم تقييم البرنامج انطلاقًا من ورقة انكشافك ومتطلبات بطاقة دور محلل البيانات: مسار مراقب واختبار عملي، ومهمة مفتوحة بأدلتها الإجرائية ومناقشتها، مع الأوزان وضوابط الأصالة وقواعد الذكاء الاصطناعي.",
+              "minutes": 75,
+              "href": "../labs/D1_2_two_lanes.html",
+              "steps": [
+                {
+                  "text": "اقرأ المتطلبات الثمانية وحدد ما تشهد به الشهادة",
+                  "minutes": 10
+                },
+                {
+                  "text": "وزع كل متطلب على مسار مستندًا إلى ورقة الانكشاف",
+                  "minutes": 15
+                },
+                {
+                  "text": "صمم المسار المراقب: الصيغة والمدة والظروف",
+                  "minutes": 15
+                },
+                {
+                  "text": "صمم المهمة المفتوحة وأدلتها وأسئلة مناقشتها",
+                  "minutes": 15
+                },
+                {
+                  "text": "اكتب الأوزان وضوابط الأصالة وقواعد القرار السلبي",
+                  "minutes": 12
+                },
+                {
+                  "text": "تبادل الخطة مع زميل وتحدَّ كل منكما خطة الآخر",
+                  "minutes": 8
+                }
+              ],
+              "stretch": "اكتب نص الشهادة الجديد في سطرين بحيث لا يدّعي أكثر مما يشهد به المساران"
+            }
+          },
+          {
+            "n": 3,
+            "label": "الجلسة 3",
+            "title": "الشهادات وادعاءاتها",
+            "summary": "شهادات الحضور والإنجاز والشهادات المرتبطة بتقييم والمتراكمة والمراقبة، والشارات القابلة للتحقق، والذكاء الاصطناعي في التصحيح والمراقبة، ودرجات القطع والاعتمادية",
+            "outcomes": [
+              "تميّز ما تثبته كل نوع من الشهادات وما لا تثبته",
+              "تقرأ شارة قابلة للتحقق: الجهة المصدرة والمعايير والربط بالمهارات والأدلة والحالة",
+              "تشترط الإفصاح عن الذكاء الاصطناعي في التصحيح ومراجعة بشرية قبل القرار السلبي، وتقرأ الدرجات قرب حد الاجتياز"
+            ],
+            "lo": [
+              "LO3"
+            ],
+            "minutes": 50,
+            "lab": null
+          },
+          {
+            "n": 4,
+            "label": "الجلسة 4",
+            "title": "تقييم أثر التدريب",
+            "summary": "المستويات من رد الفعل إلى النتائج والعائد، والمقياس والقرار في كل مستوى، ومجموعات المقارنة وآثار الاختيار وما يتغير للجميع",
+            "outcomes": [
+              "تختار مقياسًا لكل مستوى من رد الفعل إلى العائد وتربطه بقرار",
+              "تبني مقارنة عادلة وتسمي أثر الاختيار وما تغير للجميع",
+              "تفصل من يقيّم البرنامج عمن يملكه"
+            ],
+            "lo": [
+              "LO4",
+              "LO3"
+            ],
+            "minutes": 115,
+            "lab": {
+              "id": "1.4",
+              "title": "خريطة الشهادات وخطة تقييم البرنامج",
+              "summary": "تصنف ثماني شهادات بما تثبته وطريقة التحقق منها وما يجوز لها أن تدّعيه، ثم تخطط لتقييم أثر برنامج صِلِّيان بمجموعة مقارنة: المقياس في كل مستوى والقرار الذي يخدمه.",
+              "minutes": 75,
+              "href": "../labs/D1_4_credentials_evaluation.html",
+              "steps": [
+                {
+                  "text": "اقرأ الشهادات الثماني وبياناتها الوصفية",
+                  "minutes": 10
+                },
+                {
+                  "text": "صنف كل شهادة: ما تثبته، والتحقق، والادعاء الجائز",
+                  "minutes": 15
+                },
+                {
+                  "text": "أشّر على المبالغات وأعد صياغة شارة صِلِّيان",
+                  "minutes": 10
+                },
+                {
+                  "text": "احسب التقديرات الثلاثة للأثر",
+                  "minutes": 12
+                },
+                {
+                  "text": "اختر المقياس في كل مستوى والقرار الذي يخدمه",
+                  "minutes": 18
+                },
+                {
+                  "text": "اكتب التصميم والتهديدات ومن يقيّم",
+                  "minutes": 10
+                }
+              ],
+              "stretch": "احسب كم يجب أن تساوي قيمة نقطة واحدة من إعادة العمل كي يغطي البرنامج تكلفته، واذكر الافتراضات التي يقوم عليها الرقم"
+            }
+          }
+        ]
+      }
+    ],
+    "capstone": {
+      "summary": "",
+      "submission": "",
+      "talk_minutes": null,
+      "qa_minutes": null,
+      "rubric": []
+    },
+    "labs": {
+      "kind": "pages",
+      "base": "labs/"
+    },
+    "tools": [
+      {
+        "slot": "الوصول إلى نموذج مستضاف",
+        "examples": [
+          "نموذج مستضاف مفتوح الأوزان",
+          "أي مساعد مؤسسي معتمد"
+        ]
+      },
+      {
+        "slot": "نماذج من الشهادات القابلة للتحقق",
+        "examples": [
+          "Open Badges",
+          "W3C Verifiable Credentials"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": "الاختبارات غير المراقبة وأدوات الكشف",
+        "items": [
+          {
+            "title": "Scarfe, Watcham, Clarke, Roesch: A real-world test of artificial intelligence infiltration of a university examinations system (PLOS ONE, 2024)",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354"
+          },
+          {
+            "title": "Liang, Yuksekgonul, Mao, Wu, Zou: GPT detectors are biased against non-native English writers (arXiv 2304.02819)",
+            "url": "https://arxiv.org/abs/2304.02819"
+          },
+          {
+            "title": "Weber-Wulff وآخرون: Testing of Detection Tools for AI-Generated Text (arXiv 2306.15666)",
+            "url": "https://arxiv.org/abs/2306.15666"
+          },
+          {
+            "title": "Bastani, Bastani, Sungu, Ge, Kabakcı, Mariman: Generative AI without guardrails can harm learning: Evidence from high school mathematics (PNAS 122(26), 2025)",
+            "url": "https://doi.org/10.1073/pnas.2422633122"
+          },
+          {
+            "title": "Knowledge at Wharton: Without Guardrails, Generative AI Can Harm Education (عن دراسة Bastani وآخرين في PNAS 2025)",
+            "url": "https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/"
+          }
+        ]
+      },
+      {
+        "group": "التقييم بمسارين",
+        "items": [
+          {
+            "title": "Liu and Bridgeman, Teaching@Sydney: What to do about assessments if we can't out-design or out-run AI?",
+            "url": "https://educational-innovation.sydney.edu.au/teaching@sydney/what-to-do-about-assessments-if-we-cant-out-design-or-out-run-ai/"
+          }
+        ]
+      },
+      {
+        "group": "الشهادات القابلة للتحقق والتصحيح الآلي",
+        "items": [
+          {
+            "title": "W3C: Verifiable Credentials Data Model v2.0 (W3C Recommendation, 15 May 2025)",
+            "url": "https://www.w3.org/TR/vc-data-model-2.0/"
+          },
+          {
+            "title": "1EdTech: Open Badges Specification, Version 3.0",
+            "url": "https://www.imsglobal.org/spec/ob/v3p0/"
+          },
+          {
+            "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), EUR-Lex: Annex III, point 3, education and vocational training",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+          },
+          {
+            "title": "AERA, APA, NCME: Standards for Educational and Psychological Testing (2014, open access)",
+            "url": "https://www.testingstandards.net/open-access-files.html"
+          }
+        ]
+      },
+      {
+        "group": "تقييم أثر التدريب",
+        "items": [
+          {
+            "title": "Kirkpatrick Partners: The Kirkpatrick Model",
+            "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+          },
+          {
+            "title": "ROI Institute: ROI Methodology",
+            "url": "https://roiinstitute.net/roi-methodology/"
+          }
+        ]
+      },
+      {
+        "group": "المرجعيات الوطنية",
+        "items": [
+          {
+            "title": "سدايا: إطار معايير البرامج التدريبية في البيانات والذكاء الاصطناعي (النسخة الأولى، سبتمبر 2026): التعريفات، والمعايير S-10 وS-11 وS-13",
+            "url": "https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf"
+          },
+          {
+            "title": "SDAIA: Data & AI Training Programs Standards Framework (First Version, September 2026), English edition",
+            "url": "https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf"
+          },
+          {
+            "title": "سدايا: إطار المعايير المهنية في البيانات والذكاء الاصطناعي (النسخة الثانية، سبتمبر 2026): بطاقة الدور D-AN محلل البيانات",
+            "url": "https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf"
+          },
+          {
+            "title": "SDAIA: Data & AI Occupational Standards Framework (Second Version, September 2026), English edition",
+            "url": "https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf"
+          },
+          {
+            "title": "سدايا: شارات محترفي الذكاء الاصطناعي، صفحة التسجيل الرسمية",
+            "url": "https://athkax.sdaia.gov.sa/badges"
+          }
+        ]
+      }
+    ]
+  }
+}
