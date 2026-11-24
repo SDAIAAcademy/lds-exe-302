@@ -113,7 +113,8 @@ Assessing and Certifying Skills in the AI Era
 - [Scarfe, Watcham, Clarke, Roesch: A real-world test of artificial intelligence infiltration of a university examinations system (PLOS ONE, 2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354)
 - [Liang, Yuksekgonul, Mao, Wu, Zou: GPT detectors are biased against non-native English writers (arXiv 2304.02819)](https://arxiv.org/abs/2304.02819)
 - [Weber-Wulff وآخرون: Testing of Detection Tools for AI-Generated Text (arXiv 2306.15666)](https://arxiv.org/abs/2306.15666)
-- [Knowledge at Wharton: Without Guardrails, Generative AI Can Harm Education (عن دراسة Bastani وآخرين، نُشرت في PNAS 2025 بعنوان Generative AI without guardrails can harm learning)](https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/)
+- [Bastani, Bastani, Sungu, Ge, Kabakcı, Mariman: Generative AI without guardrails can harm learning: Evidence from high school mathematics (PNAS 122(26), 2025)](https://doi.org/10.1073/pnas.2422633122)
+- [Knowledge at Wharton: Without Guardrails, Generative AI Can Harm Education (عن دراسة Bastani وآخرين في PNAS 2025)](https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/)
 
 ### التقييم بمسارين
 
