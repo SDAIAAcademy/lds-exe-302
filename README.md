@@ -5,7 +5,7 @@ Assessing and Certifying Skills in the AI Era
 
 مسار التنفيذيين والقادة · أكاديمية سدايا · LDS-EXE-302 · المستوى 300
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تقيس بنفسك ما يجتازه نموذج مستضاف من تقييمك غير المراقب، وتعيد تصميمه في مسار مراقب ومسار مفتوح يُناقَش، وتقرأ كل شهادة بما تثبته، وتخطط لقياس أثر البرنامج بمجموعة مقارنة
 
 يقرر قادة التعلم والمواهب أي أدوات التقييم لا تزال قادرة على إثبات المهارة حين يملك كل مرشح مساعد ذكاء اصطناعي. يراقب المشاركون نموذجًا مستضافًا وهو يحاول اجتياز نسخة اصطناعية من اختبارهم غير المراقب، ثم يعيدون تصميمه في مسار مراقب ومسار مفتوح تُناقَش مخرجاته، ويربطون الشهادات بما يمكن لكل منها أن يدّعيه بصدق، ويخططون لقياس أثر البرنامج. يُتناول التقييم الصفي في المقرر USE-EDU-201.
 
@@ -28,12 +28,56 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day1.html`](slides/day1.html) |
+| اليوم 1 | ما يجتازه النموذج، وما تشهد به الشهادة، وما يثبته الأثر | ما الذي غيّره الذكاء الاصطناعي; إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم; الشهادات وادعاءاتها; تقييم أثر التدريب | [`slides/day1.html`](slides/day1.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
 
-**REPLACE: اسم الجهة الافتراضية التي تعمل عليها كل المختبرات.** REPLACE: جملتان عن دراسة الحالة وبياناتها الاصطناعية
+**مجموعة صِلِّيان لمواد البناء، إدارة التعلّم والمواهب.** شركة خاصة افتراضية لمواد البناء: أربعة مصانع وذراع للتوزيع ونحو 5,200 موظف. تدير إدارة التعلّم والمواهب برنامجًا داخليًّا اسمه «محلل البيانات المعتمد»: ستة أسابيع، تنتهي باختبار عبر الإنترنت غير مراقب من 24 بندًا ودراسة حالة تُنجز في البيت، وشارة رقمية تدخل ملف الترقية. في 2026 قفزت نسبة الاجتياز من نحو 60% إلى 90% فأكثر، وفي فحص مفاجئ مراقب اجتاز 10 من 19 مجتازًا. وعلى طاولة مديرة التعلّم والمواهب ثلاثة مقترحات: أداة كشف، وسطر يمنع المساعدات، وطلب توسيع مبني على تقرير كتبه مالك البرنامج نفسه.
+
+كل ملفات الحالة اصطناعية، يكتبها مولّد ببذرة ثابتة (`labs/_tools/prepare_data.py`)، وكلها مصنفة «عام»: الاختبار ومفتاحه، وسجل 600 رحلة توزيع بمشكلات مزروعة، وثماني شهادات نموذجية من جهات مصدرة افتراضية على النطاق المحجوز `.example`، وبيانات إعادة العمل قبل البرنامج وبعده لستين مشاركًا ومئة وعشرين في مجموعة المقارنة. لا أسماء أشخاص في الحالة: الأدوار وحدها، والموظفون برموز. مفتاح الإجابة للمدرّب في `labs/solutions/`.
+
+## كيف يسير اليوم
+
+ورشة يوم واحد: أربع جلسات، وثلاثة مختبرات، ومهمة تحضيرية، ثم التقييم. المجموع 480 دقيقة (8 ساعات): 180 للتعليم، و210 للمختبرات، و30 للتعلم الموجَّه، و60 للتقييم.
+
+| الجزء | المدة | ما فيه |
+|---|---|---|
+| المهمة التحضيرية | 30 دقيقة | قراءة الحالة، ووصف تقييم غير مراقب من عمل المشارك دون بيانات أشخاص (`labs/files/prework_card.md`) |
+| 1. ما الذي غيّره الذكاء الاصطناعي | 105 دقائق | 45 للتعليم، ثم المختبر 1.1 (60 دقيقة) |
+| 2. إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم | 120 دقيقة | 45 للتعليم، ثم المختبر 1.2 (75 دقيقة) |
+| 3. الشهادات وادعاءاتها | 50 دقيقة | تعليم، دون مختبر |
+| 4. تقييم أثر التدريب | 115 دقيقة | 40 للتعليم، ثم المختبر 1.4 (75 دقيقة) |
+| الاختبار القصير المراقب | 20 دقيقة | دون ذكاء اصطناعي ودون أجهزة |
+| المراجعة المباشرة للخطتين | 40 دقيقة | مجموعات من أربعة، نحو 5 دقائق لكل خطة؛ مراجع ثانٍ لدفعة أكبر من 12 |
+
+رقم المختبر يتبع جلسته: لا مختبر في الجلسة 3، والمختبر الثالث (1.4) يجمع الشهادات وتقييم الأثر بعد الجلستين 3 و4.
+
+## التقييم
+
+- اختبار قصير مراقب في مفاهيم الصدق (20%)
+- خطة المسارين (40%)
+- خطة التقييم (40%)
+
+**النجاح:** 70% إجمالًا، مع اجتياز معيار الأصالة في الخطة. معيار الأصالة هو R4 في بطاقة المراجعة (`labs/files/review_card.md`)، واجتيازه 12 من 20 على الأقل.
+
+**الأصالة:** تُبنى الخطط في الجلسة انطلاقًا من ورقة الانكشاف الخاصة بالمشارك، وتُراجَع مباشرة.
+
+**الشهادة:** completion with assessed work (شهادة إنجاز مع عمل مقيَّم).
+
+سلّما تقدير الخطتين في بطاقة المراجعة، ولا يتداخلان: R1 إلى R5 لخطة المسارين، وE1 إلى E4 لخطة التقييم. بنود الاختبار القصير المراقب ومفتاحه لدى المدرّب، وليست في هذا المستودع؛ أسئلة التدريب على صفحة التدريب في موقع المقرر. خريطة الشهادات (دليل الناتج الثالث) تُنجز في المختبر 1.4 وتُناقش في القاعة، وليس لها وزن مستقل في البطاقة؛ ومفاهيمها في الاختبار القصير المراقب.
+
+**سياسة الذكاء الاصطناعي:** دون ذكاء اصطناعي في الاختبار القصير المراقب. ذكاء اصطناعي كامل في مختبر الانكشاف، إذ يحاول النموذج اجتياز الاختبار. ذكاء اصطناعي مرشد في الخطط، وتُراجَع مباشرة.
+
+**الاستخدام المسؤول:** يغطي الإنصاف والإشراف البشري: يفحص المشاركون تحيز أدوات الكشف ضد الكتّاب من غير الناطقين باللغة الأصلية، ويشترطون الإفصاح عن استخدام الذكاء الاصطناعي في التصحيح، ومراجعة بشرية قبل أي قرار سلبي بشأن مرشح. جميع البيانات اصطناعية.
+
+**قاعدة الحالة في الأدوات المستضافة:** لا يُدخل أي ملف مصنف «مقيد» فأعلى، ولا يُدخل إلا ما صُنف «عام». هذه قاعدة مجموعة صِلِّيان لنفسها، وهي على لفظ مبادئ الذكاء الاصطناعي التوليدي الصادرة عن سدايا.
+
+**عن نتائج النموذج:** لا يحمل هذا المستودع أي نتيجة لنموذج لغوي. في المختبر 1.1 يجرب كل مشارك المساعد المستضاف المتاح له، وتُناقش أرقام القاعة. ورقة التمرين `labs/files/exposure_sheet_fallback.csv` التي يبدأ منها المختبر 1.2 عند الحاجة ملأها بديل مكتوب، وليست نتيجة نموذج.
+
+## المقررات المجاورة
+
+تصميم التقييم داخل مقرر دراسي، والاختبارات الشفهية وحساب الاتهامات الخاطئة بالتفصيل: المقرر USE-EDU-201 «التدريس والتقييم في عصر الذكاء الاصطناعي». هذه الورشة تتناول قرارات الشهادة: ما الذي تشهد به، وكيف يُتحقق منه، وكيف يُقاس أثر البرنامج.
 
 <!-- academy:labs -->
 ## المختبرات
@@ -42,9 +86,9 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.3 | اليوم 1 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 1.3 | [`D1_3.html`](labs/D1_3.html) |
-| 1.4 | اليوم 1 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 1.4 | [`D1_4.html`](labs/D1_4.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | نموذج مستضاف يحاول اجتياز الاختبار | [`D1_1_exposure_test.html`](labs/D1_1_exposure_test.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | تقييم واحد في مسارين | [`D1_2_two_lanes.html`](labs/D1_2_two_lanes.html) |
+| 1.4 | اليوم 1 · الجلسة 4 | خريطة الشهادات وخطة تقييم البرنامج | [`D1_4_credentials_evaluation.html`](labs/D1_4_credentials_evaluation.html) |
 <!-- /academy:labs -->
 
 ## المتطلبات السابقة
@@ -64,11 +108,40 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### الاختبارات غير المراقبة وأدوات الكشف
+
+- [Scarfe, Watcham, Clarke, Roesch: A real-world test of artificial intelligence infiltration of a university examinations system (PLOS ONE, 2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354)
+- [Liang, Yuksekgonul, Mao, Wu, Zou: GPT detectors are biased against non-native English writers (arXiv 2304.02819)](https://arxiv.org/abs/2304.02819)
+- [Weber-Wulff وآخرون: Testing of Detection Tools for AI-Generated Text (arXiv 2306.15666)](https://arxiv.org/abs/2306.15666)
+- [Knowledge at Wharton: Without Guardrails, Generative AI Can Harm Education (عن دراسة Bastani وآخرين، نُشرت في PNAS 2025 بعنوان Generative AI without guardrails can harm learning)](https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education/)
+
+### التقييم بمسارين
+
+- [Liu and Bridgeman, Teaching@Sydney: What to do about assessments if we can't out-design or out-run AI?](https://educational-innovation.sydney.edu.au/teaching@sydney/what-to-do-about-assessments-if-we-cant-out-design-or-out-run-ai/)
+
+### الشهادات القابلة للتحقق والتصحيح الآلي
+
+- [W3C: Verifiable Credentials Data Model v2.0 (W3C Recommendation, 15 May 2025)](https://www.w3.org/TR/vc-data-model-2.0/)
+- [1EdTech: Open Badges Specification, Version 3.0](https://www.imsglobal.org/spec/ob/v3p0/)
+- [EU Artificial Intelligence Act: Annex III, High-risk AI systems (point 3, education and vocational training)](https://artificialintelligenceact.eu/annex/3/)
+- [AERA, APA, NCME: Standards for Educational and Psychological Testing (2014, open access)](https://www.testingstandards.net/open-access-files.html)
+
+### تقييم أثر التدريب
+
+- [Kirkpatrick Partners: The Kirkpatrick Model](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/)
+- [ROI Institute: ROI Methodology](https://roiinstitute.net/roi-methodology/)
+
+### المرجعيات الوطنية
+
+- [سدايا: إطار معايير البرامج التدريبية في البيانات والذكاء الاصطناعي (النسخة الأولى، سبتمبر 2026): التعريفات، والمعايير S-10 وS-11 وS-13](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf)
+- [SDAIA: Data & AI Training Programs Standards Framework (First Version, September 2026), English edition](https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf)
+- [سدايا: إطار المعايير المهنية في البيانات والذكاء الاصطناعي (النسخة الثانية، سبتمبر 2026): بطاقة الدور D-AN محلل البيانات](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf)
+- [SDAIA: Data & AI Occupational Standards Framework (Second Version, September 2026), English edition](https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf)
+- [سدايا: شارات محترفي الذكاء الاصطناعي، صفحة التسجيل الرسمية](https://athkax.sdaia.gov.sa/badges)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية
 
-- إطار معايير البرامج التدريبية في البيانات والذكاء الاصطناعي: REPLACE: عنوان النص الرسمي
-- إطار المعايير المهنية في البيانات والذكاء الاصطناعي: REPLACE: عنوان النص الرسمي
-- شارات محترفي الذكاء الاصطناعي: REPLACE: عنوان النص الرسمي
+- إطار معايير البرامج التدريبية في البيانات والذكاء الاصطناعي (سدايا، النسخة الأولى، سبتمبر 2026، المعمول بها): https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf (العربية)، https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAITrainingProgramsStandardsFramework.pdf (الإنجليزية). في المقرر: المعيار S-10 في الجلسة 2، والتعريفات والمعيار S-13 في الجلسة 3، والمعيار S-11 في شريحة الذكاء الاصطناعي في التصحيح.
+- إطار المعايير المهنية في البيانات والذكاء الاصطناعي (سدايا، النسخة الثانية، سبتمبر 2026): https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf (العربية)، https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf (الإنجليزية). في المقرر: بطاقة الدور D-AN «محلل البيانات»، ثمانية عناصر منها بصياغتنا في `labs/files/role_requirements.md`.
+- شارات محترفي الذكاء الاصطناعي (سدايا): https://athkax.sdaia.gov.sa/badges. يذكرها المقرر مرجعًا، ولا ينقل عنها قواعد: قواعد الشارات تتغير، فيُرجع إلى صفحتها الرسمية.
