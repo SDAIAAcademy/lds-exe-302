@@ -49,7 +49,7 @@ Assessing and Certifying Skills in the AI Era
 | 3. الشهادات وادعاءاتها | 50 دقيقة | تعليم، دون مختبر |
 | 4. تقييم أثر التدريب | 115 دقيقة | 40 للتعليم، ثم المختبر 1.4 (75 دقيقة) |
 | الاختبار القصير المراقب | 20 دقيقة | دون ذكاء اصطناعي ودون أجهزة |
-| المراجعة المباشرة للخطتين | 40 دقيقة | مجموعات من أربعة، نحو 5 دقائق لكل خطة؛ مراجع ثانٍ لدفعة أكبر من 12 |
+| المراجعة المباشرة للخطتين | 40 دقيقة | نحو 5 دقائق لكل خطة: مراجع لكل أربعة مشاركين في مجموعات متوازية (ثلاثة مراجعين لدفعة من 12) |
 
 رقم المختبر يتبع جلسته: لا مختبر في الجلسة 3، والمختبر الثالث (1.4) يجمع الشهادات وتقييم الأثر بعد الجلستين 3 و4.
 
@@ -71,7 +71,7 @@ Assessing and Certifying Skills in the AI Era
 
 **الاستخدام المسؤول:** يغطي الإنصاف والإشراف البشري: يفحص المشاركون تحيز أدوات الكشف ضد الكتّاب من غير الناطقين باللغة الأصلية، ويشترطون الإفصاح عن استخدام الذكاء الاصطناعي في التصحيح، ومراجعة بشرية قبل أي قرار سلبي بشأن مرشح. جميع البيانات اصطناعية.
 
-**قاعدة الحالة في الأدوات المستضافة:** لا يُدخل أي ملف مصنف «مقيد» فأعلى، ولا يُدخل إلا ما صُنف «عام». هذه قاعدة مجموعة صِلِّيان لنفسها، وهي على لفظ مبادئ الذكاء الاصطناعي التوليدي الصادرة عن سدايا.
+**قاعدة الحالة في الأدوات المستضافة:** لا يُدخل أي ملف مصنف «مقيد» فأعلى، ولا يُدخل إلا ما صُنف «عام». هذه قاعدة مجموعة صِلِّيان لنفسها.
 
 **عن نتائج النموذج:** لا يحمل هذا المستودع أي نتيجة لنموذج لغوي. في المختبر 1.1 يجرب كل مشارك المساعد المستضاف المتاح له، وتُناقش أرقام القاعة. ورقة التمرين `labs/files/exposure_sheet_fallback.csv` التي يبدأ منها المختبر 1.2 عند الحاجة ملأها بديل مكتوب، وليست نتيجة نموذج.
 
@@ -123,7 +123,7 @@ Assessing and Certifying Skills in the AI Era
 
 - [W3C: Verifiable Credentials Data Model v2.0 (W3C Recommendation, 15 May 2025)](https://www.w3.org/TR/vc-data-model-2.0/)
 - [1EdTech: Open Badges Specification, Version 3.0](https://www.imsglobal.org/spec/ob/v3p0/)
-- [EU Artificial Intelligence Act: Annex III, High-risk AI systems (point 3, education and vocational training)](https://artificialintelligenceact.eu/annex/3/)
+- [Regulation (EU) 2024/1689 (Artificial Intelligence Act), EUR-Lex: Annex III, point 3, education and vocational training](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
 - [AERA, APA, NCME: Standards for Educational and Psychological Testing (2014, open access)](https://www.testingstandards.net/open-access-files.html)
 
 ### تقييم أثر التدريب

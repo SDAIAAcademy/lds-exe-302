@@ -113,7 +113,10 @@ def main():
     flagged = sorted(c for c, r in ref.items() if r["over_claim"] == "yes")
     check(flagged == ["C1", "C2", "C3", "C5", "C8"], f"reference over-claims {flagged}")
     check(meta["C6"]["valid_until"] == "2025-12-31" and "2025-12-31" in ref["C6"]["note"], "C6 expiry is noted")
-    check(meta["C1"]["signed"] == "no" and ref["C1"]["how_verified"] == "لا شيء", "C1 cannot be verified")
+    for cid, m in meta.items():
+        parts = [n for n, k in (("توقيع", "signed"), ("حالة إلغاء", "status_check"), ("أدلة مرفقة", "evidence")) if m[k] == "yes"]
+        want = "؛ ".join(parts) or "لا شيء"
+        check(ref[cid]["how_verified"] == want, f"{cid} how_verified agrees with the metadata: {want}")
 
     # Lab 1.4: evaluation
     panel = rows("rework_panel.csv")

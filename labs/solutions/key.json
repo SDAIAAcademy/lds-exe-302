@@ -187,6 +187,7 @@
       "mean": 15.2,
       "sd": 5.92,
       "kr20": 0.9,
+      "kr20_3dp": 0.896,
       "sem": 1.91,
       "within_one_sem_of_cut": 11,
       "passed": 28
